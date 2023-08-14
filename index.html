@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*
+            modulo operator
+        */
+
+        let a = 12 % 5;
+        console.log(a);
+
+        let number = 29;
+        console.log(number % 2); // 0 even number, 1 odd number
+    
+        console.log("***");
+
+        let arr = [-3,-2,-1,0,1,2,3,4,5,6];
+        for (let i = 0; i < arr.length; i++) {
+            const num = arr[i];
+            if (num % 2 == 0) {
+                console.log(num, " is an even number");
+            } else console.log(num, "is an odd number");
+        }
+    </script>
+</body>
+</html>
